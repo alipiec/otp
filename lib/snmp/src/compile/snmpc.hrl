@@ -195,6 +195,18 @@
        ).
 
 
+-record(mc_agent_caps,
+	{name,
+	 prod_rel,
+	 status,
+	 description,
+	 reference,
+         supports,
+	 name_assign
+	}
+       ).
+
+
 -record(mc_sequence, 
 	{name,
 	 fields
